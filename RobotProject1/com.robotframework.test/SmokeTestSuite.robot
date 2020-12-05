@@ -25,6 +25,9 @@ MySecondTest
 MyThirdTest
     Log             I am inside 3rd test.  
     
+MyFourthTest
+    Log             I am inside 4th test.  
+    
 
 
 # FirstSeleniumTest
