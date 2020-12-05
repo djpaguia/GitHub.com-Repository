@@ -1,7 +1,6 @@
 *** Settings ***
 Library    SeleniumLibrary
     
-
 Suite Setup        Log    I am inside the Test Suite Setup.  
 Suite Teardown     Log    I am inside the Test Suite Teardown.  
 Test Setup         Log    I am inside Test Setup.
