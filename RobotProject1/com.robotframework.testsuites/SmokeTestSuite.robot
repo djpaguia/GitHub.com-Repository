@@ -1,6 +1,8 @@
 *** Settings ***
 Library    SeleniumLibrary
-    
+
+
+      
 Suite Setup        Log    I am inside the Test Suite Setup.  
 Suite Teardown     Log    I am inside the Test Suite Teardown.  
 Test Setup         Log    I am inside Test Setup.
@@ -31,30 +33,29 @@ MyFifthTest
     Log             I am inside 5th test. 
     
 
-    
 
 
-# FirstSeleniumTest
-    # Open Browser                 https://www.google.com                        headlesschrome
-    # Maximize Browser Window
-    # Delete All Cookies
-    # Set Browser Implicit Wait    5
-    # Input Text                   name=q                                        Robot Framework
-    # Sleep                        2     
-    # Press Keys                   name=q                                        ENTER
-    # Sleep                        2    
-    # Close Browser
-    # Log                          DJ Test Completed - TEST PASSED   
+FirstSeleniumTest
+    Open Browser                 https://www.google.com                        headlesschrome
+    Maximize Browser Window
+    Delete All Cookies
+    Set Browser Implicit Wait    5
+    Input Text                   name=q                                        Robot Framework
+    Sleep                        2     
+    Press Keys                   name=q                                        ENTER
+    Sleep                        2    
+    Close Browser
+    Log                          DJ Test Completed - TEST PASSED   
     
-# SampleLoginTest
-    # [Documentation]              This is a sample login test.
-    # Open Browser                 ${URL}                                        chrome
-    # Set Browser Implicit Wait    5
-    # Sleep                        2
-    # LoginKW    
-    # LogoutKW
-    # Close Browser
-    # Log                          DJ Test Completed - TEST 
+SampleLoginTest
+    [Documentation]              This is a sample login test.
+    Open Browser                 ${URL}                                        chrome
+    Set Browser Implicit Wait    5
+    Sleep                        2
+    LoginKW    
+    LogoutKW
+    Close Browser
+    Log                          DJ Test Completed - TEST 
      
     
 *** Variables ***
