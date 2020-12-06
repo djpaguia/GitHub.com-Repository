@@ -11,6 +11,11 @@ Test Teardown   Close All Browsers
  
 
 *** Test Cases ***
+
+Test Case - Log
+    [Documentation]    This is a sample login test.
+    Log                Hellow World
+    
 Test Case - Verify Login functionality using valid credentials
     [Documentation]    This is a sample login test.
     Open Chrome
