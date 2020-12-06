@@ -27,5 +27,4 @@ Enter Invalid Password
     
 Verify Invalid Credentials is visible
     Element Should Be Visible   ${Invalid_Credentials_prompt} 
-    # Set Screenshot Directory    ${SCREENSHOT_PATH_TESTPASS}
     Capture Page Screenshot       
