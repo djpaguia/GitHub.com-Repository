@@ -9,5 +9,5 @@ ${Dashboard_header}    xpath=//h1[contains(text(),'Dashboard')]
 
 Verify Dashboard Header is visible
     Element Should Be Visible     ${Dashboard_header}
-    Set Screenshot Directory      ${SCREENSHOT_PATH_TESTPASS}
+    # Set Screenshot Directory      ${SCREENSHOT_PATH_TESTPASS}
     Capture Page Screenshot       
